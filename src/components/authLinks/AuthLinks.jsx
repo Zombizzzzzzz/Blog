@@ -30,7 +30,7 @@ export const AuthLinks = () => {
           <Link href="/">Home</Link>
           <Link href="/">About</Link>
           <Link href="/">Contact</Link>
-          {status === 'loggedIn' ? (
+          {status === 'unauthenticated' ? (
             <Link href="/login">Login</Link>
           ) : (
             <>
