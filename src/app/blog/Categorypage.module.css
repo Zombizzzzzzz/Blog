@@ -1,0 +1,12 @@
+.container{
+
+}
+
+.header{
+    background-color: #05c4ff31;
+    color:var(--textColor);
+}
+
+.cardlist{
+    padding: 50px;
+}

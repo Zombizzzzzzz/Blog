@@ -1,0 +1,105 @@
+.container{
+
+}
+
+.infoContainer{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+   
+}
+
+.textCont{
+    flex: 1;
+    
+}
+
+.title{
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+.author{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.userinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color : var(--softTextColor);
+}
+
+.username{
+    font-size: 20px;
+}
+
+.userImage{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.authorImageCont{
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+.imageCont{
+    flex: 1;
+    height: 350px;
+    position: relative;
+}
+
+.image{
+    object-fit: cover;
+}
+
+.content{
+    display: flex;
+    gap: 50px;
+}
+
+.dsec p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.post{
+    flex:5;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 1536px) {
+    .header{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .header{
+        font-size: 44px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .header{
+        font-size: 38px;
+    }
+    .imageCont{
+        display:none;
+    }
+}
+@media screen and (max-width: 620px) {
+    .header{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header{
+        font-size: 24px;
+    }
+   .dsec p{
+    font-size: 16px;
+   }
+}

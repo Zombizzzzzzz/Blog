@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Button{
+    width: 100px;
+    padding: 16px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
