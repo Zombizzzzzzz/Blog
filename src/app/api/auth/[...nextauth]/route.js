@@ -4,7 +4,10 @@ import { getUserByEmail } from "@/data/users";
 import bcrypt from "bcrypt";
 
 export const authOptions = {
-  session: { strategy: "jwt" },
+  session: {
+  strategy: "jwt",
+  maxAge: 24 * 60 * 60, // 1 day (adjust as needed)
+},
   providers: [
     CredentialsProvider({
       async authorize(credentials) {

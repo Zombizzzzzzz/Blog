@@ -6,9 +6,10 @@ import { signIn } from "next-auth/react";
 import { getUserByEmail } from "@/data/users";
 export const authOptions = {
   debug: true,
-  session: {
-    strategy: "jwt",
-  },
+ session: {
+  strategy: "jwt",
+  maxAge: 24 * 60 * 60, // 1 day (adjust as needed)
+},
   providers: [
    
   ],
